@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>Login</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/LOGIN.css'>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" type="image/png" href="images/Favicon/favicon.png">
+    <script src='main.js'></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body style="background-image: url(images/Background-Login/Background.jpg);">
+    <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <img id="logo" src="images/Logo/your-logo.png">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown"><a href="#">Softwares</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li ><a href="Sercurity-Software.html">System-Security</a></li>
+                                <li ><a href="Office-Software.html">Office</a></li>
+                                <li ><a href="Multimedia-Software.html">Multimedia</a></li>
+                                <li ><a href="Application-Software.html">Utilities - Applications</a></li>
+                                <li ><a href="Design-Software.html">Design</a></li>
+                                <li ><a href="Operation-Software.html">Operating System</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"><a href="#">Games</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Action-Game.html">Action</a></li>
+                                <li><a href="Adventure-Game.html">Adventure</a></li>
+                                <li><a href="FPS-Game.html">FPS</a></li>
+                                <li><a href="Simulator-Game.html">Simulator</a></li>
+                                <li><a href="Stragedy-Game.html">Strategy</a></li>
+                                <li><a href="Indie-Game.html">Indie</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"><a href="#">Movies</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="Action-Movie.html">Action</a></li>
+                                <li><a href="Adventurre-Movie.html">Adventure</a></li>
+                                <li><a href="Horror-Movie.html">Horror</a></li>
+                                <li><a href="Detective-Movie.html">Detective</a></li>
+                                <li><a href="Documentary-Movie.html">Documentary</a></li>
+                                <li><a href="Cartoon-Movie.html">Cartoon</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#"><i class="fa fa-users"></i>Forum</a></li>
+                    <li><a href="#"><i class="fa fa-question"></i>FAQS</a></li>
+                    <li id="active"><a href="LOGIN.html">Log in</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="Loginbox">
+        <h1>Welcome</h1>
+        <h2>Login to your account</h2>
+        <form onsubmit="return LoginForm()">
+            <div class="input-form">
+                <p>Username or email address</p>
+                <input type="text" name="" id="user">
+                <p>Password</p>
+                <input type="password" name="" id="pass">
+            </div>
+            
+            <input type="checkbox" class="check-box"><span>Remember Login</span>
+            
+
+            <div class="input-form">
+                <input type="submit" name="" value="Login" id="submit" onclick="LoginForm()">
+                <a href="#">Forgot Password?</a><br>
+                <a href="#">New to Website?Create an account</a>
+            </div>
+           
+        </form>
+        <h4>Or Login With</h4>
+        <ul class="LoginIcon">
+            <li><i class="fab fa-facebook-square" aria-hidden="true"></i></li>
+            <li><i class="fab fa-google-plus-square" aria-hidden="true"></i></li>
+            <li><i class="fab fa-twitter-square" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+
+    <div class="scrollTop" onclick="ScrollTop()">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
