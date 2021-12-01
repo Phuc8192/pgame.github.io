@@ -232,12 +232,6 @@ body
     padding: 0px 50px 50px 50px;
 }
 .footer h1{color: #fff;}
-.container
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
 .info-footer
 {
     width: 250px;
