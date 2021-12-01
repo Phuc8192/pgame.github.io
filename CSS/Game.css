@@ -244,11 +244,25 @@ body
     margin-left: 50px;
     margin-top: 50px;
 }
-.info-text
+@media (min-width: 1200px)
 {
-    color: #555;
-    font-family: 'Quicksand', sans-serif;
+    .info-text 
+    {
+        font: 16px;
+        color: #555;
+        font-family: 'Quicksand', sans-serif;
+    }
 }
+@media (max-width: 1198px)
+{
+    .info-text 
+    {
+        font: 48px;
+        color: #555;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+
 .info-contact
 {
     color: #ababab;
