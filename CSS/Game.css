@@ -241,7 +241,7 @@ body
 .info-footer
 {
     width: 250px;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     margin-top: 50px;
     padding: 0px 75px;
 }
