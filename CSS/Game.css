@@ -232,6 +232,12 @@ body
     padding: 0px 50px 50px 50px;
 }
 .footer h1{color: #fff;}
+
+.col-xs-4
+{
+    padding: 0px 50px;
+}
+
 .info-footer
 {
     width: 250px;
