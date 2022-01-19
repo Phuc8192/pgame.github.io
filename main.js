@@ -4,7 +4,7 @@ var images = ["images/Banner/1.jpg","images/Banner/2.jpg", "images/Banner/3.jpg"
 var banner, i=0, index=1;
 var next, prev;
 var loop = setInterval(Slide,2200);
-function Slide(i)
+function Slide()
 {
     banner = document.getElementById("banner");
     next = document.getElementsByClassName("next");
