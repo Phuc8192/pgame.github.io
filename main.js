@@ -11,7 +11,7 @@ function Slide()
     prev = document.getElementsByClassName("prev");
     banner.src = images[i];
     i++;
-    if (next.onClick())
+    /*if (next.onClick())
     {
         i++;
         banner.src = images[i];
@@ -20,7 +20,7 @@ function Slide()
     {
         i--;
         banner.src = images[i];
-    }
+    }*/
     if(i==images.length)
         i=0;
 }
