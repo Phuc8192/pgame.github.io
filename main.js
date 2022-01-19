@@ -1,7 +1,7 @@
 var images = ["images/Banner/1.jpg","images/Banner/2.jpg", "images/Banner/3.jpg","images/Banner/4.jpg",
 "images/Banner/5.jpg","images/Banner/6.jpg", "images/Banner/7.jpg", "images/Banner/8.jpg", 
 "images/Banner/11.jpg", "images/Banner/12.jpg", "images/Banner/13.jpg"];
-var banner, i=0, index=1;
+var banner, i=0;
 var next, prev;
 var loop = setInterval(Slide,2200);
 function Slide()
@@ -24,7 +24,6 @@ function Slide()
     if(i==images.length)
         i=0;
 }
-function next()
 function Over()
 {
     clearInterval(loop);
