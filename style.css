@@ -47,10 +47,12 @@ body
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  text-decoration: none;
 }
 .prev {
     left: 0;
     border-radius: 3px 0 0 3px;
+    text-decoration: none;
   }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
