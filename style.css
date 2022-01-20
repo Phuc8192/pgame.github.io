@@ -275,6 +275,10 @@ body
 	margin-right: 5px;
 	overflow: hidden;	
 }
+.card-product h5
+{
+    text-align: center;
+}
 
 .footer
 {
