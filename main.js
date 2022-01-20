@@ -5,13 +5,13 @@ var banner, i=0;
 var next, prev;
 var index=0;
 var loop = setInterval(Slide(index),2200);
-function Slide(index)
+function Slide()
 {
     banner = document.getElementById("banner");
-    index = i;
+    //index = i;
     //next = document.getElementsByClassName("next");
     //prev = document.getElementsByClassName("prev");
-    banner.src = images[index];
+    banner.src = images[i];
     i++;
     /*if (next.onClick())
     {
