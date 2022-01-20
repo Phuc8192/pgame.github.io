@@ -4,7 +4,7 @@ var images = ["images/Banner/1.jpg","images/Banner/2.jpg", "images/Banner/3.jpg"
 var banner, i=0;
 var next, prev;
 var index=0;
-var loop = setInterval(Slide(index),2200);
+var loop = setInterval(Slide(),2200);
 function Slide()
 {
     banner = document.getElementById("banner");
@@ -36,7 +36,7 @@ function Over()
 }
 function Out()
 {
-    loop = setInterval(Slide(index),2200);
+    loop = setInterval(Slide(),2200);
 }
 
 function ScrollTop()
