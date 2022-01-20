@@ -3,15 +3,17 @@ var images = ["images/Banner/1.jpg","images/Banner/2.jpg", "images/Banner/3.jpg"
 "images/Banner/11.jpg", "images/Banner/12.jpg", "images/Banner/13.jpg"];
 var banner, i=0;
 var next, prev;
-var loop = setInterval(Slide,2200);
-function Slide()
+var index=0;
+var loop = setInterval(Slide(index),2200);
+function Slide(index)
 {
     banner = document.getElementById("banner");
-    next = document.getElementsByClassName("next");
-    prev = document.getElementsByClassName("prev");
-    banner.src = images[i];
+    index = i;
+    //next = document.getElementsByClassName("next");
+    //prev = document.getElementsByClassName("prev");
+    banner.src = images[index];
     i++;
-    if (next.onClick())
+    /*if (next.onClick())
     {
         i++;
         banner.src = images[i];
@@ -20,9 +22,13 @@ function Slide()
     {
         i--;
         banner.src = images[i];
-    }
+    }*/
     if(i==images.length)
         i=0;
+}
+function Next(n)
+{
+    Slide(index+=n)
 }
 function Over()
 {
@@ -30,7 +36,7 @@ function Over()
 }
 function Out()
 {
-    loop = setInterval(Slide,2200);
+    loop = setInterval(Slide(index),2200);
 }
 
 function ScrollTop()
