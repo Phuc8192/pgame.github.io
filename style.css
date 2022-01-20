@@ -2,14 +2,14 @@
 {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 body 
 {
     padding: 0;
     margin: 0;
     background-color: #181A1B;
-    height: 3200px;
+    /*height: 3200px;*/
     font-family: 'Quick-sand', sans-serif;
 }
 
