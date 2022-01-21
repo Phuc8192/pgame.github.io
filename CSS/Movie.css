@@ -176,6 +176,32 @@ body
 }
 #box h5{color: #fff;}
 
+/*list product*/
+.list-product-title{
+	width: 100%;
+	text-transform: uppercase;
+	margin-left: 5px;
+	margin-right: 5px;
+    color: #2bab0d;
+}
+.list-product-subtitle{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*product card*/
+.card-product{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: hidden;	
+}
+.card-product h5
+{
+    text-align: center;
+}
+
 .scrollTop
 {
     position: fixed;
