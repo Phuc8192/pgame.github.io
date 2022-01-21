@@ -152,14 +152,14 @@ body
 {
     float: left; 
     margin: 40px 20px;
-    /* width: 96%; */
-    width: 100%;
+    width: 96%;
+    /* width: 100%; */
 }
 #content-movies
 {
     width: 224px;
     height: 400px;
-    /* padding-left: 30px; */
+    padding-left: 30px;
     margin-bottom: 40px;
     float: left;
     line-height: 0px;
