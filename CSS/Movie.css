@@ -254,7 +254,6 @@ body
 .footer h1{color: #fff;}
 .info-footer
 {
-    float: center;
     width: 250px;
     margin-left: 50px;
     margin-top: 50px;
@@ -273,7 +272,6 @@ body
 
 .fanpage
 {
-    float: center;
     width: 250px;
     margin-left: 50px;
     margin-top: 50px;
@@ -281,7 +279,6 @@ body
 
 .social-network
 {
-    float: center;
     width: 250px;
     margin-top: 50px;
     margin-left: 50px;
