@@ -227,7 +227,7 @@ body
 {
     text-align: center;
     box-sizing: border-box;
-    /* float: center; */
+    float: center;
     position: absolute;
     top: 50%;
     left: 50%;
