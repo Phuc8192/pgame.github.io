@@ -196,7 +196,6 @@ body
 	width: 100%;
 	margin-left: 5px;
 	margin-right: 5px;
-    margin-bottom: 40px;
 	overflow: hidden;
 }
 .card-product h5
@@ -228,7 +227,7 @@ body
 {
     text-align: center;
     box-sizing: border-box;
-    float: right;
+    float: center;
     margin-bottom: 40px;
 }
 #pagination a
