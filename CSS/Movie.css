@@ -203,6 +203,9 @@ float: left;
 .col-md-15 {
 width: 20%;
 /* float: left; */
+float: center;
+display: flex;
+justify-content: center;
 }
 }
 
