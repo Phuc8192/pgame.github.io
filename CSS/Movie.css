@@ -181,7 +181,7 @@ body
 .col-sm-15,
 .col-md-15,
 .col-lg-15 {
-    position: relative;
+    position: absolute;
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
