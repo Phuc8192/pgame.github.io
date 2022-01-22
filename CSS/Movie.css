@@ -197,7 +197,7 @@ body
 	margin-left: 5px;
 	margin-right: 5px;
     margin: 50px 0px;
-	overflow: hidden;
+	overflow: auto;
 }
 .card-product h5
 {
