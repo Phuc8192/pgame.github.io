@@ -177,6 +177,12 @@ body
 }
 #box h5{color: #fff;}
 
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+   }
+}
+
 /*list product*/
 .list-product-title{
 	width: 100%;
