@@ -181,7 +181,7 @@ body
 .col-sm-15,
 .col-md-15,
 .col-lg-15 {
-    position: absolute;
+    position: relative;
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
@@ -202,7 +202,7 @@ float: left;
 @media (min-width: 992px) {
 .col-md-15 {
 width: 20%;
-float: left;
+/* float: left; */
 }
 }
 
