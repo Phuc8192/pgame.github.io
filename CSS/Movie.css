@@ -227,8 +227,8 @@ float: left;
     .col-half-offset{
         width: 48%;
         float: left;
-        margin-left: 8px;
-        /* margin-left: 15px; */
+        /* margin-left: 5px; */
+        padding-left: 8px;
     }
 }
 
