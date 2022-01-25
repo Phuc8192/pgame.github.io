@@ -216,6 +216,11 @@ float: left;
 }
 }
 
+.col-half-offset{
+    width: 50%;
+    float: left;
+}
+
 /*list product*/
 .list-product-title{
 	width: 100%;
@@ -232,9 +237,6 @@ float: left;
 
 /*product card*/
 .card-product{
-    float: center;
-    display: flex;
-    justify-content: center;
 	width: 100%;
     /* height: 450px; */
 	margin-left: 5px;
