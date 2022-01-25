@@ -32,7 +32,8 @@ body
 } 
 .menu-bar ul
 {
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: list-item;
     list-style: none;
     color: #fff;
 }
