@@ -220,12 +220,12 @@ float: left;
     position: relative;
     min-height: 1px;
     /* padding-right: 10px; */
-    margin-left: 2px;
+    margin-left: 5px;
 }
 @media (max-width: 760px)
 {
     .col-half-offset{
-        width: 50%;
+        width: 48%;
         float: left;
         /* margin-left: 15px; */
     }
