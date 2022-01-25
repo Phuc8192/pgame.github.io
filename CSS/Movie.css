@@ -23,8 +23,7 @@ body
 }
 .menu-bar
 {
-    top: 0;
-    left: 0;
+    float: left;
     background: rgb(0, 0, 0);
     text-align: center;
 }
