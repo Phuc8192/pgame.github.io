@@ -219,8 +219,6 @@ float: left;
 .col-half-offset{
     position: relative;
     min-height: 1px;
-    /* padding-right: 10px; */
-    /* margin-left: 5px; */
 }
 @media (max-width: 760px)
 {
@@ -228,7 +226,6 @@ float: left;
         width: 48%;
         float: left;
         margin-left: 5px;
-        /* padding-right: 5px; */
     }
 }
 
