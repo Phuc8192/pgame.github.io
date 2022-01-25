@@ -293,9 +293,11 @@ float: left;
     color: #fff;
     background-color: #2bab0d;
     padding: 0px 15px;
-    border: 10px solid #2bab0d;
+    border: 8px solid #2bab0d;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 #pagination a:hover
 {
