@@ -225,7 +225,7 @@ float: left;
 @media (max-width: 760px)
 {
     .col-half-offset{
-        width: 48%;
+        width: 45%;
         float: left;
         margin-left: 10px;
     }
