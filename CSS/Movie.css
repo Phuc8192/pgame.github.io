@@ -232,6 +232,9 @@ float: left;
 
 /*product card*/
 .card-product{
+    float: center;
+    display: flex;
+    justify-content: center;
 	width: 100%;
     /* height: 450px; */
 	margin-left: 5px;
