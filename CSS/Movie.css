@@ -291,7 +291,7 @@ float: left;
 {
     text-decoration: none;
     color: #fff;
-    font: 14px 800;
+    font-weight: bolder;
     background-color: #2bab0d;
     padding: 0px 15px;
     border: 8px solid #2bab0d;
