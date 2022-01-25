@@ -293,7 +293,7 @@ float: left;
     color: #fff;
     background-color: #2bab0d;
     padding: 0px 15px;
-    border: 1px solid #2bab0d;
+    border: 10px solid #2bab0d;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
