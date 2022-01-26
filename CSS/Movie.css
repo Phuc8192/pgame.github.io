@@ -24,6 +24,7 @@ body
 .menu-bar
 {
     background: rgb(0, 0, 0);
+    height: 125px;
     text-align: center;
 }
 .menu-bar .arrow {
