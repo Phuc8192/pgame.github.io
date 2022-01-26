@@ -150,13 +150,14 @@ body
     display: inline-flex;
     list-style: none;
 }
-#list ul li 
+#list ul li
 {
 	width: 60px;
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
     text-align: center;
 }
+
 #list ul li:first-child
 {
     margin-left: 15px;
