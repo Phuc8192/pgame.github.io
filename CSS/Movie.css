@@ -64,6 +64,37 @@ body
     margin-right: 4px;
 }
 
+.search
+{
+    display: none;
+}
+.menu-bar ul li:hover .search
+{
+    display: block;
+    margin: 5px;
+}
+.menu-bar ul li:hover .search
+{
+    display: block;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.search input[type="text"]
+{
+    display: block;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid #2bab0d;
+    border-radius: 15px;
+}
+
 .sub-menu-1
 {
     display: none;
