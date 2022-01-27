@@ -102,7 +102,7 @@ body
 }
 .menu-bar ul li:hover .sub-menu-1
 {
-    display: inline-block;
+    display: block;
     position: absolute;
     background: rgb(0, 0, 0);
     margin-top: 15px;
