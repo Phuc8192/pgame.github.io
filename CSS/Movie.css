@@ -294,7 +294,7 @@ float: left;
 {
     font-size: 14px;
     text-align: center;
-    top: 50%;
+    margin: 0px;
 }
 .card-product a
 {
