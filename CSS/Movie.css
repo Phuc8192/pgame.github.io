@@ -139,6 +139,12 @@ body
     border-radius: 3px;
 }
 
+.light-mode
+{
+    background-color: #fff;
+    color: #000;
+}
+
 #intro
 {
     width: 100%;

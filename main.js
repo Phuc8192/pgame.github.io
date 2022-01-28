@@ -44,4 +44,8 @@ function ScrollTop()
     $('html,body').animate({ scrollTop: 0 });
 }
 
+function LightMode() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+}
 
