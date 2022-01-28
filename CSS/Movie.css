@@ -290,11 +290,11 @@ float: left;
 {
     height: 60px;
     padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
 }
 .card-product h5
 {
-    background-color: #000;
-    color: #fff;
     font-size: 16px;
     text-align: center;
     display: -webkit-box;
