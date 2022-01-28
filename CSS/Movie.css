@@ -139,12 +139,6 @@ body
     border-radius: 3px;
 }
 
-.light-mode
-{
-    background-color: #fff;
-    color: #000;
-}
-
 #intro
 {
     width: 100%;
@@ -456,6 +450,11 @@ float: left;
 }
 
 /*--------Light Mode---------*/
+.light-mode
+{
+    background-color: #eff1f5;
+    color: #000;
+}
 .light-mode .menu-bar
 {
     background: #fff;
