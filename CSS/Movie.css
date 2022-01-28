@@ -481,7 +481,7 @@ float: left;
     background-color: #eff1f5;
     color: #000;
 }
-.light-mode ::-webkit-scrollbar
+.light-mode::-webkit-scrollbar
 {
     background-color: #eff1f5;
 }
