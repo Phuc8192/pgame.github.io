@@ -49,3 +49,10 @@ function LightMode() {
     element.classList.toggle("light-mode");
 }
 
+window.onload = function () 
+{ 
+    const themeBtn = document.getElementById('toggle'); 
+    themeBtn.addEventListener('click', function () { document.body.classList.toggle('light-mode'); 
+    this.classList.toggle('active'); 
+    }); 
+};

@@ -454,3 +454,13 @@ float: left;
     text-decoration: none;
     color: #b2ff00;
 }
+
+/*--------Light Mode---------*/
+.light-mode .menu-bar
+{
+    background: #fff;
+}
+.light-mode .menu-bar ul li a
+{
+    color: #000;
+}
