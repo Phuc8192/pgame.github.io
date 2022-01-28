@@ -491,6 +491,11 @@ float: left;
 {
     background-color: #eff1f5;
 }
+.light-mode .card-product .card-body
+{
+    background-color: #eff1f5;
+    color: #000;
+}
 .light-mode #toggle
 {
     background-color: #888;
