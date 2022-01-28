@@ -292,8 +292,11 @@ float: left;
 }
 .card-product h5
 {
-    font-size: 10px;
-    text-align: left;
+    font-size: 14px;
+    text-align: center;
+    float: center;
+    display: flex;
+    justify-content: center;
 }
 .card-product a
 {
