@@ -487,6 +487,10 @@ float: left;
 {
     color: #000;
 }
+.light-mode .menu-bar ul li:hover .sub-menu-1
+{
+    background-color: #eff1f5;
+}
 .light-mode #toggle
 {
     background-color: #888;
