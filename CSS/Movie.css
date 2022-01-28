@@ -457,8 +457,6 @@ float: left;
     background-color: #888;
     box-shadow: rgba(100, 100, 110, 0.2) 0px 8px 28px 0px;
     position: fixed;
-    left: 50px;
-    bottom: 50px;
   }
   #toggle::before {
     content: '';
