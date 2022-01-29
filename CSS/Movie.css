@@ -134,6 +134,13 @@ body
     text-align: center;
 
 }
+@media (min-width: 992px)
+{
+    .menu-bar ul li:hover .sub-menu-1 ul li
+    {
+        width: 150px;
+    }
+}
 .menu-bar ul li:hover .sub-menu-1 ul li:last-child
 {
     border-bottom: none;
