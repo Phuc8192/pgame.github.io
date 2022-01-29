@@ -26,7 +26,7 @@ body
     background: rgb(0, 0, 0);
     text-align: center;
 }
-.navbar-toggler-icon
+.menu-bar .navbar-toggler-icon
 {
     background: #eff1f5;
 }
@@ -493,7 +493,7 @@ float: left;
 {
     background: #eff1f5;
 }
-.light-mode .navbar-toggler-icon
+.light-mode .menu-bar .navbar-toggler-icon
 {
     background: #000;
 }
