@@ -122,10 +122,6 @@ body
     display: block;
     margin: 5px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul .sub-menu-left
-{
-    right: 50%;
-}
 .menu-bar ul li:hover .sub-menu-1 ul li
 {
 	width: 180px;
