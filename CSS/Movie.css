@@ -28,7 +28,7 @@ body
 }
 .menu-bar button
 {
-    color: #eff1f5;
+    background: #eff1f5;
 }
 .menu-bar .arrow {
     font-size:11px;
@@ -495,7 +495,7 @@ float: left;
 }
 .light-mode .menu-bar button
 {
-    color: #000;
+    background: #000;
 }
 .light-mode .menu-bar ul li a
 {
