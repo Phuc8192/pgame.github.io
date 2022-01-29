@@ -497,7 +497,7 @@ float: left;
 {
     background: #eff1f5;
 }
-.light-mode .menu-bar .navbar-toggler
+.light-mode .menu-bar .navbar-toggler .bg-dark
 {
     background: #2bab0d;
 }
