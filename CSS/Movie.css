@@ -117,14 +117,14 @@ body
     margin-top: 15px;
     margin-left: -15px;
 }
-.menu-bar ul li:hover .sub-menu-1 .sub-menu-left
-{
-    right: 50%;
-}
 .menu-bar ul li:hover .sub-menu-1 ul
 {
     display: block;
     margin: 5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul .sub-menu-left
+{
+    right: 50%;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li
 {
