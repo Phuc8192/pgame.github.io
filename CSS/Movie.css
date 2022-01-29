@@ -26,6 +26,13 @@ body
     background: rgb(0, 0, 0);
     text-align: center;
 }
+@media (max-width: 760px)
+{
+    .menu-bar
+    {
+        text-align: left;
+    }
+}
 .menu-bar .navbar-toggler
 {
     background: #eff1f5;
