@@ -26,7 +26,7 @@ body
     background: rgb(0, 0, 0);
     text-align: center;
 }
-.menu-bar span
+.navbar-toggler-icon
 {
     background: #eff1f5;
 }
@@ -493,9 +493,9 @@ float: left;
 {
     background: #eff1f5;
 }
-.light-mode .menu-bar span
+.light-mode .navbar-toggler-icon
 {
-    color: #000;
+    background: #000;
 }
 .light-mode .menu-bar ul li a
 {
