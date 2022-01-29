@@ -141,13 +141,13 @@ body
     text-align: center;
 
 }
-/* @media (max-width: 760px)
+@media (max-width: 760px)
 {
     .menu-bar ul li:hover .sub-menu-1 ul li
     {
-        width: 120px;
+        width: 150px;
     }
-} */
+}
 .menu-bar ul li:hover .sub-menu-1 ul li:last-child
 {
     border-bottom: none;
