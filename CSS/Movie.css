@@ -26,7 +26,7 @@ body
     background: rgb(0, 0, 0);
     text-align: center;
 }
-.menu-bar button
+.menu-bar span
 {
     background: #eff1f5;
 }
@@ -493,7 +493,7 @@ float: left;
 {
     background: #eff1f5;
 }
-.light-mode .menu-bar button
+.light-mode .menu-bar span
 {
     background: #000;
 }
