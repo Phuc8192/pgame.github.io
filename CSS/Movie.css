@@ -26,6 +26,10 @@ body
     background: rgb(0, 0, 0);
     text-align: center;
 }
+.menu-bar button
+{
+    color: #eff1f5;
+}
 .menu-bar .arrow {
     font-size:11px;
     line-height:0%;
