@@ -134,11 +134,11 @@ body
     text-align: center;
 
 }
-@media (min-width: 992px)
+@media (max-width: 760px)
 {
     .menu-bar ul li:hover .sub-menu-1 ul li
     {
-        width: 150px;
+        width: 120px;
     }
 }
 .menu-bar ul li:hover .sub-menu-1 ul li:last-child
