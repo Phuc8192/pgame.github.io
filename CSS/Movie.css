@@ -30,6 +30,10 @@ body
 {
     background: #eff1f5;
 }
+.menu-bar .navbar-toggler
+{
+    background: #000;
+}
 .menu-bar .arrow {
     font-size:11px;
     line-height:0%;
