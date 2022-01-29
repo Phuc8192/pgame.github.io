@@ -107,7 +107,7 @@ body
 .sub-menu-1
 {
     display: none;
-    right: 25;
+    right: 0;
 	z-index: 10;
 }
 .menu-bar ul li:hover .sub-menu-1
