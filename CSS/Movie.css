@@ -497,11 +497,11 @@ float: left;
 {
     background: #eff1f5;
 }
-/* .light-mode .menu-bar .navbar-toggler
+.light-mode .menu-bar .navbar-toggler
 {
-    background: #000;
+    background: #2bab0d;
 }
-.light-mode .menu-bar .navbar-toggler-icon
+/* .light-mode .menu-bar .navbar-toggler-icon
 {
     background: #2bab0d;
 } */
