@@ -26,14 +26,14 @@ body
     background: rgb(0, 0, 0);
     text-align: center;
 }
-/* .menu-bar .navbar-toggler
+.menu-bar .navbar-toggler
 {
     background: #eff1f5;
-}*/
-.menu-bar .navbar-toggler-icon
+}
+/* .menu-bar .navbar-toggler-icon
 {
     background: #000;
-}
+} */
 .menu-bar .arrow {
     font-size:11px;
     line-height:0%;
@@ -497,14 +497,14 @@ float: left;
 {
     background: #eff1f5;
 }
-/* .light-mode .menu-bar .navbar-toggler .bg-dark
-{
-    background: #2bab0d;
-} */
-.light-mode .menu-bar .navbar-toggler-icon
+.light-mode .menu-bar .navbar-toggler
 {
     background: #2bab0d;
 }
+/* .light-mode .menu-bar .navbar-toggler-icon
+{
+    background: #2bab0d;
+} */
 .light-mode .menu-bar ul li a
 {
     color: #000;
