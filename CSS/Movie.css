@@ -497,9 +497,13 @@ float: left;
 {
     background: #eff1f5;
 }
+.light-mode .menu-bar .navbar-toggler
+{
+    background: #000;
+}
 .light-mode .menu-bar .navbar-toggler-icon
 {
-    color: #000;
+    background: #eff1f5;
 }
 .light-mode .menu-bar ul li a
 {
