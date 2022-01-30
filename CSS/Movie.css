@@ -477,7 +477,7 @@ float: left;
     width: 20px;
     height: 40px;
     border-radius: 20px;
-    background-color: #2bab0d;
+    background-color: #242526;
     box-shadow: rgba(25, 25, 25, 0.2) 0px 8px 28px 0px;
     position: absolute;
     top: 20%;
@@ -490,7 +490,7 @@ float: left;
     bottom: 1px;
     width: 18px;
     height: 18px;
-    background-color: #242526;
+    background-color: #eff1f5;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.35s;
@@ -535,10 +535,10 @@ float: left;
 }
 .light-mode #toggle
 {
-    background-color: #000;
+    background-color: #888;
     box-shadow: rgba(100, 100, 110, 0.2) 0px 4px 14px 0px;
 }
 .light-mode #toggle::before
 {
-    background-color: #fff;
+    background-color: #2bab0d;
 }
