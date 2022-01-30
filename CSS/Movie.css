@@ -533,6 +533,14 @@ float: left;
 {
     background-color: #eff1f5;
 }
+.light-mode .menu-bar ul li:hover .search
+{
+    background: #000;
+}
+.light-mode .search input[type="text"]
+{
+    color: #fff;
+}
 .light-mode .card-product .card-body
 {
     background-color: #eff1f5;
