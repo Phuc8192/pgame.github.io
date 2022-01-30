@@ -126,13 +126,13 @@ body
     display: flex;
     position: absolute;
     background: #eff1f5;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     margin-left: -15px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul
 {
     display: block;
-    margin: 0px 5px 0px 5px;
+    margin: 5px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li
 {
