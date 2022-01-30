@@ -145,7 +145,7 @@ body
 {
     .menu-bar ul li:hover .sub-menu-1 ul li
     {
-        width: 150px;
+        width: 170px;
     }
 }
 .menu-bar ul li:hover .sub-menu-1 ul li:last-child
