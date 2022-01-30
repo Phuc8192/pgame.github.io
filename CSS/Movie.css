@@ -80,20 +80,20 @@ body
     margin-right: 4px;
 }
 
-/* .search
+.search
 {
     display: none;
 }
-.menu-bar ul li:hover .search
+/* .menu-bar ul li:hover .search
 {
     display: block;
     margin: 5px;
-}
+} */
 .menu-bar ul li:hover .search
 {
     display: block;
     position: absolute;
-    background: rgb(0, 0, 0);
+    background: #eff1f5;
     margin-top: 15px;
     margin-left: -15px;
 }
@@ -104,12 +104,12 @@ body
     outline: none;
     height: 40px;
     width: 250px;
-    color: #fff;
-    text-align: center;
+    color: #000;
+    text-align: left;
     font-size: 16px;
     border: 2px solid #2bab0d;
     border-radius: 15px;
-} */
+}
 
 .sub-menu-1
 {
