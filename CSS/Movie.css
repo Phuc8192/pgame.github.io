@@ -542,3 +542,7 @@ float: left;
 {
     background-color: #2bab0d;
 }
+.light-mode .scrollTop
+{
+    color: #000;
+}
