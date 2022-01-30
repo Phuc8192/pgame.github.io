@@ -535,7 +535,7 @@ float: left;
 }
 .light-mode #toggle
 {
-    background-color: #888;
+    background-color: #000;
     box-shadow: rgba(100, 100, 110, 0.2) 0px 4px 14px 0px;
 }
 .light-mode #toggle::before
