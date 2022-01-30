@@ -125,7 +125,7 @@ body
 {
     display: flex;
     position: absolute;
-    background: #eff1f5;
+    background: #000;
     /* margin-top: 15px; */
     margin-left: -15px;
 }
