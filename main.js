@@ -59,7 +59,7 @@ window.onload = function ()
 
 /*---------Pagination-----------*/
     (function(name) {
-      var container = $('#pagination');
+      var container = $('#pagination-' + name);
       var sources = function () {
         var result = [];
   
