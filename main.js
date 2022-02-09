@@ -58,46 +58,58 @@ window.onload = function ()
 };
 
 /*---------Pagination-----------*/
-    (function(name) {
-      var container = $('#pagination-' + name);
-      var sources = function () {
-        var result = [];
+    // (function(name) {
+    //   var container = $('#pagination-' + name);
+    //   var sources = function () {
+    //     var result = [];
   
-        for (var i = 1; i < 196; i++) {
-          result.push(i);
-        }
+    //     for (var i = 1; i < 196; i++) {
+    //       result.push(i);
+    //     }
   
-        return result;
-      }();
+    //     return result;
+    //   }();
   
-      var options = {
-        dataSource: sources,
-        callback: function (response, pagination) {
-          window.console && console.log(response, pagination);
+    //   var options = {
+    //     dataSource: sources,
+    //     callback: function (response, pagination) {
+    //       window.console && console.log(response, pagination);
   
-          var dataHtml = '<ul>';
+    //       var dataHtml = '<ul>';
   
-          $.each(response, function (index, item) {
-            dataHtml += '<li>' + item + '</li>';
-          });
+    //       $.each(response, function (index, item) {
+    //         dataHtml += '<li>' + item + '</li>';
+    //       });
   
-          dataHtml += '</ul>';
+    //       dataHtml += '</ul>';
   
-          container.prev().html(dataHtml);
-        }
-      };
+    //       container.prev().html(dataHtml);
+    //     }
+    //   };
   
-      //$.pagination(container, options);
+    //   //$.pagination(container, options);
   
-      container.addHook('beforeInit', function () {
-        window.console && console.log('beforeInit...');
-      });
-      container.pagination(options);
+    //   container.addHook('beforeInit', function () {
+    //     window.console && console.log('beforeInit...');
+    //   });
+    //   container.pagination(options);
   
-      container.addHook('beforePageOnClick', function () {
-        window.console && console.log('beforePageOnClick...');
-        //return false
-      });
-    })('demo1');
+    //   container.addHook('beforePageOnClick', function () {
+    //     window.console && console.log('beforePageOnClick...');
+    //     //return false
+    //   });
+    // })('demo1');
 /*------------------------------*/
+$('#pagination-here').bootpag({
+  total: 10,          
+  page: 1,            
+  maxVisible: 5,     
+  leaps: true,
+  href: "#result-page-{{number}}",
+})
 
+//page click action
+$('#pagination-here').on("page", function(event, num){
+  //show / hide content or pull via ajax etc
+  $("#content").html("Page " + num); 
+});

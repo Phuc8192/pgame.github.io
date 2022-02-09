@@ -573,23 +573,16 @@ float: left;
     color: #fff;
 }
 
-#wrapper {
-    width: 900px;
-    margin: 20px auto;
+/*Generic*/
+.wrapper{
+    margin: 60px auto;
+    text-align: center;
 }
-
-.data-container {
-    margin-top: 20px;
-}
-
-.data-container ul {
-    padding: 0;
-    margin: 0;
-}
-
-.data-container li {
-    margin-bottom: 5px;
-    padding: 5px 10px;
-    background: #eee;
-    color: #666;
+/*Specific styling*/
+#content{
+    padding: 15px;
+    border: solid 1px #eee;
+    max-width: 660px;
+    margin: auto;
+    border-radius: 4px;
 }
