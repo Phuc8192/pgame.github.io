@@ -413,9 +413,9 @@ float: left;
 }
 .price{background-color: #55acee;}
 .cart{background-color: darkorange;}
-.btn-success,.btn-details{
+/* .btn-success,.btn-details{
     margin-top:40px;
-}
+} */
 .btn-details{
     background:transparent;
     border-style:solid;
