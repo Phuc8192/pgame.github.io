@@ -430,6 +430,8 @@ float: left;
 }
 .btn-success{
     overflow:hidden;
+    border-style:solid;
+    border-color:lightgrey;
     border-radius:0%;
     width:125px;
     background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
