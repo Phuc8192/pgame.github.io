@@ -504,3 +504,90 @@ float: left;
     text-decoration: none;
     color: #b2ff00;
 }
+
+/*--------Toggle------------*/
+#toggle {
+    width: 20px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #888;
+    box-shadow: rgba(25, 25, 25, 0.2) 0px 8px 28px 0px;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+  }
+  #toggle::before {
+    content: '';
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+    width: 18px;
+    height: 18px;
+    background-color: #eff1f5;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.35s;
+  }
+  #toggle.active::before {
+    transform: translateY(-20px);
+  }
+/*--------Light Mode---------*/
+.light-mode
+{
+    background-color: #eff1f5;
+    color: #000;
+}
+.light-mode::-webkit-scrollbar
+{
+    background-color: #eff1f5;
+}
+.light-mode .menu-bar
+{
+    background: #eff1f5;
+}
+.light-mode .menu-bar .navbar-toggler
+{
+    background: #2bab0d;
+}
+/* .light-mode .menu-bar .navbar-toggler-icon
+{
+    background: #2bab0d;
+} */
+.light-mode .menu-bar ul li a
+{
+    color: #000;
+}
+.light-mode .menu-bar ul li:hover .sub-menu-1
+{
+    background-color: #eff1f5;
+}
+.light-mode .menu-bar .fas
+{
+    color: #000;
+}
+.light-mode .menu-bar ul li:hover .search
+{
+    background: #000;
+}
+.light-mode .search input[type="text"]
+{
+    color: #fff;
+}
+.light-mode .card-product .card-body
+{
+    background-color: #eff1f5;
+    color: #000;
+}
+.light-mode #toggle
+{
+    background-color: #000;
+    box-shadow: rgba(100, 100, 110, 0.2) 0px 4px 14px 0px;
+}
+.light-mode #toggle::before
+{
+    background-color: #2bab0d;
+}
+.light-mode .scrollTop
+{
+    color: #000;
+}
