@@ -422,7 +422,6 @@ float: left;
     border-color:lightgrey;
     border-radius:0%;
     width:125px;
-    padding: auto;
     color:black;
 }
 .btn-details:hover{
@@ -432,9 +431,7 @@ float: left;
 .btn-success{
     overflow:hidden;
     border-radius:0%;
-    border-style:none;
     width:125px;
-    padding: auto;
     background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
 }
 
