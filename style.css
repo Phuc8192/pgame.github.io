@@ -411,8 +411,8 @@ float: left;
 {
     background-color: #2bab0d;
 }
-.price{background-color: #55acee;}
-.cart{background-color: darkorange;}
+.card-product .card-body .price{background-color: #55acee;}
+.card-product .card-body .cart{background-color: darkorange;}
 
 
 .footer
