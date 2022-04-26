@@ -413,7 +413,33 @@ float: left;
 }
 .price{background-color: #55acee;}
 .cart{background-color: darkorange;}
-
+.btn-success,.btn-details{
+    margin-top:40px;
+}
+.btn-details{
+    background:transparent;
+    border-style:solid;
+    border-color:lightgrey;
+    border-radius:0%;
+    width:125px;
+    top:11px;
+    left:5px;
+    color:black;
+}
+.btn-details:hover{
+    background:lightgrey;
+    color:white;
+}
+.btn-success{
+    overflow:hidden;
+    border-radius:0%;
+    border-style:none;
+    width:125px;
+    left:5px;
+    top:11px;
+    height:33px;
+    background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+}
 
 .footer
 {
