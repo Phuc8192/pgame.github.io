@@ -87,7 +87,7 @@ body
 /*--------------------Menu---------------*/
 .menu-bar #logo
 {
-    margin-left: 140px;
+    /* margin-left: 140px; */
     width: 125px;
     height: 60px;
 }
@@ -96,6 +96,21 @@ body
     background: rgb(0, 0, 0);
     text-align: center;
 }
+@media (max-width: 760px)
+{
+    .menu-bar
+    {
+        text-align: left;
+    }
+}
+.menu-bar .navbar-toggler
+{
+    background: #eff1f5;
+}
+/* .menu-bar .navbar-toggler-icon
+{
+    background: #000;
+} */
 .menu-bar .arrow {
     font-size:11px;
     line-height:0%;
@@ -108,7 +123,8 @@ body
 }
 .menu-bar ul li
 {
-	width: 100px;
+    position: relative;
+	width: 100px; /*120px*/
     margin: 10px 0px;
     padding: 10px;
 }
@@ -119,7 +135,7 @@ body
     font-weight: bold;
     font-family: 'Quick-sand', sans-serif;
 }
-.active, .menu-bar ul li:hover
+#active, .menu-bar ul li:hover
 {
     background: #2bab0d;
     border-radius: 3px;
@@ -134,18 +150,55 @@ body
     margin-right: 4px;
 }
 
+.search
+{
+    display: none;
+}
+/* .menu-bar ul li:hover .search
+{
+    display: block;
+    margin: 5px;
+} */
+.menu-bar ul li:hover .search
+{
+    display: block;
+    position: absolute;
+    background: #eff1f5;
+    border-radius: 15px;
+    /* margin-top: 15px; */
+    margin-left: -15px;
+}
+.search input[type="text"]
+{
+    display: block;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Quick-sand', sans-serif;
+    border: 2px solid #2bab0d;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
 .sub-menu-1
 {
     display: none;
+    /* right: 0; */
 	z-index: 10;
 }
 .menu-bar ul li:hover .sub-menu-1
 {
-    display: block;
+    display: flex;
     position: absolute;
-    background: rgb(0, 0, 0);
-    margin-top: 15px;
+    background: #000;
+    /* margin-top: 15px; */
     margin-left: -15px;
+    border-radius: 25px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul
 {
@@ -163,6 +216,13 @@ body
     text-align: center;
 
 }
+@media (max-width: 760px)
+{
+    .menu-bar ul li:hover .sub-menu-1 ul li
+    {
+        width: 160px; /*160px*/
+    }
+}
 .menu-bar ul li:hover .sub-menu-1 ul li:last-child
 {
     border-bottom: none;
@@ -174,6 +234,7 @@ body
 .menu-bar ul li:hover .sub-menu-1 ul li:hover
 {
     background: #2bab0d;
+    border-radius: 3px;
 }
 
 .scrollTop
