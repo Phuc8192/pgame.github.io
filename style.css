@@ -422,8 +422,6 @@ float: left;
     border-color:lightgrey;
     border-radius:0%;
     width:125px;
-    top:11px;
-    left:5px;
     color:black;
 }
 .btn-details:hover{
@@ -435,8 +433,6 @@ float: left;
     border-radius:0%;
     border-style:none;
     width:125px;
-    left:5px;
-    top:11px;
     height:33px;
     background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
 }
