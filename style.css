@@ -425,7 +425,7 @@ float: left;
     color:black;
 }
 .btn-details:hover{
-    background:lightgrey;
+    background: #b2ff00;
     color:white;
 }
 .btn-success{
