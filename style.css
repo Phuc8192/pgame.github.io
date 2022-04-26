@@ -394,7 +394,7 @@ float: left;
 {
     height: 60px;
     padding: 10px 20px;
-    background-color: #000;
+    /* background-color: #000; */
     color: #fff;
 }
 .card-product h5
