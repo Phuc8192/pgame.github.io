@@ -15,32 +15,23 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div id="form" class="col-lg-12" onmouseover="Over()" onmouseout="Out()">
-        <img id="banner" src="images/Banner/1.jpg">
-        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a> -->
-    </div>
-    <!--a class="prev" onclick="Next(-1)">❮</-a>
-    <a-- class="next" onclick="Next(1)">❯</a-->
-
     <div class="menu-bar">
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <img id="logo" src="images/Logo/your-logo.png">
+            <div class="col-3">
+                <div id="toggle"></div>
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" src="images/Logo/your-logo.png">
+                </a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon bg-dark"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-lg-auto">
-                    <li class="active">
-                        <a href="index.html">Home</a>
+                <ul class="navbar-nav">
+                    <li id="active">
+                        <a href="index.html"><i class="fa fa-home"></i>Home</a>
                     </li>
-                    <li class="nav-item dropdown"><a href="#">Softwares</a>
+                    <li class="nav-item dropdown"><a href="#"><!--i class="fas fa-archive"></i-->Softwares</a>
                         <div class="sub-menu-1">
                             <ul>
                                 <li ><a href="Sercurity-Software.html">System-Security</a></li>
@@ -52,7 +43,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="nav-item dropdown"><a href="#">Games</a>
+                    <li class="nav-item dropdown"><a href="#"><i class="fa fa-gamepad"></i>Games</a>
                         <div class="sub-menu-1">
                             <ul>
                                 <li><a href="Action-Game.html">Action</a></li>
@@ -64,7 +55,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="nav-item dropdown"><a href="#">Movies</a>
+                    <li class="nav-item dropdown" id="active"><a href="#"><i class="fa fa-film"></i>Movies</a>
                         <div class="sub-menu-1">
                             <ul>
                                 <li><a href="Action-Movie.html">Action</a></li>
@@ -74,14 +65,30 @@
                                 <li><a href="Documentary-Movie.html">Documentary</a></li>
                                 <li><a href="Cartoon-Movie.html">Cartoon</a></li>
                             </ul>
+                            <ul>
+                                <li><a href="#">Crime & Gangster</a></li>
+                                <li><a href="#">Westerns</a></li>
+                                <li><a href="#">Science Fiction</a></li>
+                                <li><a href="#">Historical</a></li>
+                                <li><a href="#">War</a></li>
+                                <li><a href="#">Family</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li><a href="#"><i class="fa fa-users"></i>Forum</a></li>
                     <li><a href="#"><i class="fa fa-question"></i>FAQS</a></li>
-                    <li><a href="LOGIN.html">Log in</a></li>
+                    <li><a href="LOGIN.html"><i class="fa fa-user"></i>Log in</a></li>
+                    <li><i class="fas fa-search"></i>
+                        <div class="search">
+                            <input type="text" name="" placeholder="Search">
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
+            
+        </nav> -->
     </div>
 
     <div class="wrapper">
