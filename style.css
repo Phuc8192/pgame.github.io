@@ -126,7 +126,7 @@ body
     position: relative;
 	width: 100px; /*120px*/
     margin: 10px 0px;
-    padding: 0px;
+    padding: 10px;
 }
 .menu-bar ul li a
 {
