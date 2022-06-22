@@ -93,7 +93,7 @@ body
 }
 .menu-bar
 {
-    background: #eff1f5;
+    background: rgb(0, 0, 0);
     text-align: center;
 }
 @media (max-width: 760px)
