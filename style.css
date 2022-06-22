@@ -554,7 +554,7 @@ float: left;
     transition: all 0.35s;
   }
   #toggle.active::before {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
 /*--------Light Mode---------*/
 .light-mode
