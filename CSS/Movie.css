@@ -239,6 +239,33 @@ body
 }
 #box h5{color: #fff;}
 
+/*#region Chia 5 cột */
+.col-12d5 {
+    flex: 0 0 auto;
+    width: 20%;
+    max-width: 9999px;
+}
+
+.col-12d5-x2 {   
+    flex: 0 0 auto;
+    width: 40%;
+    max-width: 9999px;
+}
+
+.col-12d5-x3 {
+    flex: 0 0 auto;
+    width: 60%;
+    max-width: 9999px;
+}
+
+.col-12d5-x4 {   
+    flex: 0 0 auto;
+    width: 80%;
+    max-width: 9999px;
+}
+/*#endregion */
+
+
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
